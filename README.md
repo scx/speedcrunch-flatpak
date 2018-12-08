@@ -54,7 +54,7 @@ $ flatpak install "flathub" "org.kde.Platform//5.9"
 ### Build
 
 ```
-$ mkdir -p "build" && flatpak-builder "build" "org.speedcrunch.SpeedCrunch.yaml" --force-clean --install-deps-from="flathub"
+$ flatpak-builder "build" "org.speedcrunch.SpeedCrunch.yaml" --force-clean --install-deps-from="flathub"
 ```
 
 ### Test
