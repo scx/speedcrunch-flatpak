@@ -9,6 +9,9 @@ sources:
   # Patch0
   - type: patch
     path: speedcrunch-0.12-appdata-update.patch
+  # Patch1
+  - type: patch
+    path: speedcrunch-0.12-desktop-update.patch
 post-install:
   # install icons
   - echo 'install icons';
